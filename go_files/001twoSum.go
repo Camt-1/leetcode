@@ -15,6 +15,7 @@ func twoSum1(nums []int, target int) []int {
 }
 
 // 哈希表
+// value, exists := map[key]
 func twoSum2(nums []int, target int) []int {
 	hashTable := map[int]int{}
 	for i, x := range nums {
